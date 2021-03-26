@@ -1,7 +1,7 @@
 <#
 Deploy Bicep resources
 #>
-az deployment group create -f .\logicapp\template.bicep -g rgbicep
+az deployment group create -f .\main.bicep -g rgbicep
 
 
 <#
