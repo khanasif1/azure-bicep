@@ -14,4 +14,4 @@ I have build this repository to explore Azure Bicep. I have tried to build some 
   - Transpile bicep to ARM and vice-versa
 
 
-## Looping
+![Looping](/image/loop.jpg)
