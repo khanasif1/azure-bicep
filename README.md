@@ -39,7 +39,11 @@ Transpile capability in bicep helps in transforming
     - bicep to ARM
 Use transpile.ps1 file
 
+***provide json to convert into ARM*** 
 ```powershell
-bicep build ***provide json to convert into ARM*** 
+bicep build 
+```
+***provide ARM to convert into json***
+```powershell
 bicep decompile ***provide ARM to convert into json***
 ```
