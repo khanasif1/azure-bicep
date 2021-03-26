@@ -7,8 +7,8 @@ I have build this repository to explore Azure Bicep. I have tried to build some 
 
 ## Install bicep
 
-- Firstly we need to install bicep CLI. Use file **installbicept.ps1**
-- Sample can be executed using  **bicep.commands.ps1** . Sample which are available are as below:
+- Firstly we need to install bicep CLI. Use file [installbicept.ps1](https://github.com/khanasif1/azure-bicep/blob/main/installbicept.ps1)
+- Sample can be executed using  [bicep.commands.ps1](https://github.com/khanasif1/azure-bicep/blob/main/bicep.commands.ps1) . Sample which are available are as below:
   - Using looping with bicep
   - Build bicep samples in modular fashion
   - Transpile bicep to ARM and vice-versa
