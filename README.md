@@ -14,4 +14,6 @@ I have build this repository to explore Azure Bicep. I have tried to build some 
   - Transpile bicep to ARM and vice-versa
 
 
+<img src="https://github.com/khanasif1/azure-bicep/blob/main/image/loop.png" alt="loop" height="50">
 <img src="https://github.com/khanasif1/azure-bicep/blob/main/image/module.png" alt="loop" height="50">
+<img src="https://github.com/khanasif1/azure-bicep/blob/main/image/transpile.png" alt="loop" height="50">
