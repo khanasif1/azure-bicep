@@ -12,3 +12,6 @@ I have build this repository to explore Azure Bicep. I have tried to build some 
   - Using looping with bicep
   - Build bicep samples in modular fashion
   - Transpile bicep to ARM and vice-versa
+
+
+## Looping
