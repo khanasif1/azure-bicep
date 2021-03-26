@@ -17,13 +17,29 @@ I have build this repository to explore Azure Bicep. I have tried to build some 
 # Looping
 <img src="https://github.com/khanasif1/azure-bicep/blob/main/image/looping.png" alt="loop" height="30">
 
-  Looping folder has main file. Looping needs an array data to loop on. The file can be executed using script below:
+Looping folder has main file. Looping needs an array data to loop on. The file can be executed using script below:
 ```powershell
 az deployment group create -f .\looping\main.bicep  -g rgbicep
 ```
 
-
+# Modules
 <img src="https://github.com/khanasif1/azure-bicep/blob/main/image/module.png" alt="loop" height="50">
 
+Module folder contains main & bicep file
+    - Main file calls the bicep file with parameters
+    - Bicep file contains vnet deployment and subnet deployment
+```powershell
+az deployment group create -f .\module\main.bicep  -g rgbicep
+```
+# Transpile
 <img src="https://github.com/khanasif1/azure-bicep/blob/main/image/transpile.png" alt="loop" height="50">
 
+Transpile capability in bicep helps in transforming 
+    - ARM to bicep
+    - bicep to ARM
+Use transpile.ps1 file
+
+```powershell
+bicep build ***provide json to convert into ARM*** 
+bicep decompile ***provide ARM to convert into json***
+```
