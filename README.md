@@ -45,5 +45,5 @@ bicep build
 ```
 ***provide ARM to convert into json***
 ```powershell
-bicep decompile ***provide ARM to convert into json***
+bicep decompile
 ```
