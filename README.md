@@ -14,8 +14,16 @@ I have build this repository to explore Azure Bicep. I have tried to build some 
   - Transpile bicep to ARM and vice-versa
 
 
-<img src="" alt="loop" height="30">
-Looping
-![alt text](https://github.com/khanasif1/azure-bicep/blob/main/image/looping.png "Looping")
+# Looping
+<img src="https://github.com/khanasif1/azure-bicep/blob/main/image/looping.png" alt="loop" height="30">
+
+  Looping folder has main file. Looping needs an array data to loop on. The file can be executed using script below:
+```powershell
+az deployment group create -f .\looping\main.bicep  -g rgbicep
+```
+
+
 <img src="https://github.com/khanasif1/azure-bicep/blob/main/image/module.png" alt="loop" height="50">
+
 <img src="https://github.com/khanasif1/azure-bicep/blob/main/image/transpile.png" alt="loop" height="50">
+
