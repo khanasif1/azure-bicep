@@ -4,8 +4,8 @@ ARM --> TO --> Bicep
 Bicep --> TO --> ARM
 #>
 bicep --help
-bicep build .\TranspileTemplate\template.bicep
-bicep decompile .\TranspileTemplate\template.json
+bicep build .\TranspileTemplate\main.bicep
+bicep decompile .\TranspileTemplate\main.json
 
 <#
 Deploy transpiled template
