@@ -1,7 +1,7 @@
 param storageNameArray array = [
-  'storage1asif786'
-  'storage2asif786'
-  'storage3asif786'
+  'storage1asif7777'
+  'storage2asif8888'
+  'storage3asif9999'
 ]
 
 resource asifbicepstorage08032021_asifkhan 'Microsoft.Storage/storageAccounts@2019-06-01' = [for store in storageNameArray: {

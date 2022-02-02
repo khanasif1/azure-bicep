@@ -15,10 +15,10 @@ module hubVent 'vnet.bicep' = {
     ]
   }
 }
-module subVent 'vnet.bicep' = {
+module spokeVent 'vnet.bicep' = {
   name: 'spokeVentbicep'
   params: {
-    vnetname: 'sub-vent'
+    vnetname: 'spoke-vent'
     addressSpaces: [
       '10.0.0.0/24'
     ]
@@ -30,5 +30,13 @@ module subVent 'vnet.bicep' = {
         }
       }
     ]
+  }
+}
+module HubToSpokePeering 'peering.bicep' = {
+  name: 'hub-to-spoke-peering'
+  params: {
+    localVnetName: hubVent.outputs.name
+    remoteVnetName: 'spoke-vent'
+    remoteVnetId: spokeVent.outputs.id
   }
 }
